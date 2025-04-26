@@ -8,33 +8,32 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="rock-paper-scissors.js" defer></script>
 </head>
 <body>
-    <script src="rock-paper-scissors.js">
-    </script>
     <div class="container">
-        <h1 class="header">Rock paper scissors</h1>
-        <div class="info">
-            <h1>Round 1 / 5</h1>
-        </div>
+        <h1 class="header">First to 5 points wins</h1>
         <div class="hands">
             <div class="human">
                 <h1 class="human">Human</h1>
                 <img class="rps-hand" src="rpshand.gif">
-                <h2 class="human">x points</h2>
+                <h2 id="humanPoints" class="human">0 points</h2>
             </div>
             <div class="computer">
                 <h1>Computer</h1>
                 <img class="rps-hand" src="rpshand.gif">
-                <h2>x points</h2>
+                <h2 id="computerPoints">0 points</h2>
             </div>
         </div>
+        <div class="results">
+            <p>Deciding...</p>
+        </div>
+        <h1 class="header">Choose your weapon</h1>
         <div class="selection">
-            <h1 class="header">Choose your weapon</h1>
             <div class="selection-buttons">
-                <button><img class="rps-choice human" src="rock.png"></button>
-                <button><img class="rps-choice human" src="paper.png"></button>
-                <button><img class="rps-choice human" src="scissors.png"></button>
+                <button class="game-choice" id="Rock"><img class="rps-choice human" src="rock.png"></button>
+                <button class="game-choice" id="Paper"><img class="rps-choice human" src="paper.png"></button>
+                <button class="game-choice" id="Scissors"><img class="rps-choice human" src="scissors.png"></button>
             </div>
         </div>
     </div>
