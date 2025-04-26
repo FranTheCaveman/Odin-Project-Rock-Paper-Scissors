@@ -76,7 +76,6 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 3vh 0;
-    gap: 4vw;
 }
 
 .results {
@@ -92,7 +91,7 @@ body {
 
 .rps-hand {
     width: auto;
-    height: 15vw;
+    height: 12vw;
 }
 
 .header {
@@ -100,12 +99,12 @@ body {
     width: 100%;
     text-align: center;
     color: white;
-    padding: 6px;  
+    padding: 3px;  
     margin-bottom: 10px;
     font-weight: 600;
-    font-size: 2.3vw;
+    font-size: 2vw;
 }
 
 .selection {
-    width: 50vw;
+    width: 45vw;
 }
