@@ -73,10 +73,10 @@ buttons.forEach((button) => {
         let computerChoice = getComputerChoice();
 
         // set human hand to choice
-        humanHand.setAttribute("src", humanChoice+".png")
+        humanHand.setAttribute("src", humanChoice.toLowerCase()+".png")
         
         // set computer hand to its choice
-        computerHand.setAttribute("src", computerChoice+".png")
+        computerHand.setAttribute("src", computerChoice.toLowerCase()+".png")
 
         playRound(humanChoice, computerChoice);
 
