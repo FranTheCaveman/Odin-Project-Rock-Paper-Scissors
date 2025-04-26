@@ -75,4 +75,4 @@ function playGame() {
     console.log("Game Over! Human: " + humanScore + " | Computer: " + computerScore); 
 }
 
-playGame();
+// playGame();
